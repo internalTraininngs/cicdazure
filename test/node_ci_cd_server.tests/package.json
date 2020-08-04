@@ -1,0 +1,19 @@
+{
+  "name": "node_ci_cd_server.tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "jasmine": "^3.6.1",
+    "mocha": "^8.1.0",
+    "request": "^2.88.2"
+  }
+}
